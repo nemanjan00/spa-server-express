@@ -1,6 +1,6 @@
 {
   "name": "spa-server-express",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "spa-server-express",
   "main": "index.js",
   "bin": {
