@@ -1,10 +1,10 @@
 {
   "name": "spa-server-express",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "spa-server-express",
   "main": "index.js",
   "bin": {
-    "spa-server": "index.js"
+    "spa-server-express": "index.js"
   },
   "repository": "https://github.com/nemanjan00/spa-server-express",
   "author": "nemanjan00",
