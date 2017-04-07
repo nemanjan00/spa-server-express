@@ -1,0 +1,15 @@
+{
+  "name": "spa-server-express",
+  "version": "1.0.0",
+  "description": "spa-server",
+  "main": "index.js",
+  "bin": {
+    "spa-server": "index.js"
+  },
+  "repository": "https://github.com/nemanjan00/spa-server-express",
+  "author": "nemanjan00",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
