@@ -7,7 +7,8 @@ var app = express();
 
 app.set('port', process.env.PORT || 3000);
 
-app.use(express.static('./public'));
+var cacheTime = 86400000*7;     // 7 days
+app.use(express.static('./public', {maxAge: cacheTime}));
 
 app.use(function(req, res, next) {
 	res.status(200).sendFile(process.cwd()+'/public/index.html');
